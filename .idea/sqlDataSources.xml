@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="bae8d28e-e2e9-47f1-90b4-5d58ab45ade0" name="DDL data source Mapping">
+      <data-sources db="ee2075f9-6473-4ffa-bf95-9db868ace62d" ddl="1bc44be5-e122-495c-911c-dc5a1f292d97" />
+      <scope>
+        <node kind="database" qname="finalytics">
+          <node kind="schema">
+            <name qname="abc" />
+            <name qname="fin" />
+            <name qname="stage" />
+          </node>
+        </node>
+      </scope>
+    </mapping>
+  </component>
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="1bc44be5-e122-495c-911c-dc5a1f292d97" />
+          <option name="name" value="DDL data source" />
+          <option name="dbmsName" value="UNKNOWN" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$" />
+            </array>
+          </option>
+          <option name="outLayout" value="File per object by schema.groovy" />
+        </State>
+      </list>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,46 @@
+create table fin.stocksymbol
+(
+    "StockSymbolID"              integer,
+    "SecurityTypeID"             integer,
+    "ExchangeMarketID"           integer,
+    "IndustryID"                 integer,
+    "RegionID"                   integer,
+    "MarketCapID"                integer,
+    "Symbol"                     varchar(50),
+    "DataSymbol"                 varchar(50),
+    "Name"                       varchar(300),
+    "LastSale"                   money,
+    "MarketCap"                  varchar(50),
+    "Country"                    varchar(50),
+    "AdrTso"                     integer,
+    "IPOyear"                    integer,
+    "IsInProfileNasdaq"          boolean,
+    "SectorNasdaq"               varchar(50),
+    "IndustryNasdaq"             varchar(100),
+    "SummaryQuote"               varchar(100),
+    "CreateTime"                 timestamp(3),
+    "UpdateTime"                 timestamp(3),
+    "EOMQuoteURL"                char(300),
+    "EOMQuoteDownloadStatus"     integer,
+    "EOMQuoteDownloadTime"       timestamp(3),
+    "EOMQuoteImportStatus"       integer,
+    "EOMQuoteImportTime"         timestamp(3),
+    "EODQuoteURL"                char(300),
+    "EODQuoteDownloadStatus"     integer,
+    "EODQuoteDownloadTime"       timestamp(3),
+    "EODQuoteImportStatus"       integer,
+    "EODQuoteImportTime"         timestamp(3),
+    "InstantQuoteDownloadStatus" integer,
+    "InstantQuoteDownloadTime"   timestamp(3),
+    "InstantQuoteImportStatus"   integer,
+    "InstantQuoteImportTime"     timestamp(3),
+    "ProfileDownloadStatus"      integer,
+    "ProfileDownloadTime"        timestamp(3),
+    "ProfileImportStatus"        integer,
+    "ProfileImportTime"          timestamp(3),
+    "Message"                    varchar(3999)
+);
+
+alter table fin.stocksymbol
+    owner to postgres;
+
