@@ -1,6 +1,6 @@
 create table stage.dailytreasuryrealyieldcurverate
 (
-    "StageDailyTreasuryRealYieldCurveRateID" integer,
+    "StageDailyTreasuryRealYieldCurveRateID"  integer,
     "DATE"                                   varchar(50),
     "5 YR"                                   varchar(50),
     "7 YR"                                   varchar(50),
