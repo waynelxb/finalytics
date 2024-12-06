@@ -1,8 +1,8 @@
 create table fin.region
 (
-    "RegionID"              integer,
-    "RegionName"            varchar(50),
-    "RegionSymbolURLFilter" varchar(50)
+    region_id                integer,
+    region_name              varchar(50),
+    region_symbol_url_filter varchar(50)
 );
 
 alter table fin.region

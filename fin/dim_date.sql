@@ -1,0 +1,46 @@
+create table fin.dim_date
+(
+    date_key             integer,
+    date                 timestamp(3),
+    full_date_uk         char(10),
+    full_date_usa        char(10),
+    day_of_month         varchar(2),
+    day_suffix           varchar(4),
+    day_name             varchar(9),
+    day_of_week_usa      char,
+    day_of_week_uk       char,
+    day_of_week_in_month varchar(2),
+    day_of_week_in_year  varchar(2),
+    day_of_quarter       varchar(3),
+    day_of_year          varchar(3),
+    week_key             integer,
+    week_of_month        varchar(1),
+    week_of_quarter      varchar(2),
+    week_of_year         varchar(2),
+    month_key            integer,
+    month                varchar(2),
+    month_name           varchar(9),
+    month_of_quarter     varchar(2),
+    quarter_key          integer,
+    quarter              char,
+    quarter_name         varchar(9),
+    year                 char(4),
+    year_name            char(7),
+    month_year           char(10),
+    mm_yyyy              char(6),
+    first_day_of_month   date,
+    last_day_of_month    date,
+    first_day_of_quarter date,
+    last_day_of_quarter  date,
+    first_day_of_year    date,
+    last_day_of_year     date,
+    is_holiday_usa       boolean,
+    is_weekday           boolean,
+    holiday_usa          varchar(50),
+    is_holiday_uk        boolean,
+    holiday_uk           varchar(50)
+);
+
+alter table fin.dim_date
+    owner to postgres;
+

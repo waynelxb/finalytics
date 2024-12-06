@@ -1,12 +1,12 @@
 create table fin.account
 (
-    "AccountID"     integer not null
+    account_id     integer not null
         constraint pk_fin_account
             primary key,
-    "BrokerID"      integer,
-    "AccountNumber" varchar(15),
-    "AccountType"   varchar(10),
-    "AccountName"   varchar(50)
+    broker_id      integer,
+    account_number varchar(15),
+    account_type   varchar(10),
+    account_name   varchar(50)
 );
 
 alter table fin.account

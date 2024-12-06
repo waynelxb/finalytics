@@ -13,14 +13,26 @@
         </node>
       </scope>
     </mapping>
+    <mapping uuid="01e9e5bb-f596-409a-af2a-22d6e841f90a" name="finalytics@192.168.1.222 (DDL) Mapping">
+      <data-sources db="ee2075f9-6473-4ffa-bf95-9db868ace62d" ddl="08ce2314-31d1-4fa8-8da4-991ef63b8027" />
+      <scope>
+        <node kind="database" qname="finalytics">
+          <node kind="schema">
+            <name qname="abc" />
+            <name qname="fin" />
+            <name qname="stage" />
+          </node>
+        </node>
+      </scope>
+    </mapping>
   </component>
   <component name="SqlDataSourceStorage">
     <option name="dataSources">
       <list>
         <State>
-          <option name="id" value="1bc44be5-e122-495c-911c-dc5a1f292d97" />
-          <option name="name" value="DDL data source" />
-          <option name="dbmsName" value="UNKNOWN" />
+          <option name="id" value="08ce2314-31d1-4fa8-8da4-991ef63b8027" />
+          <option name="name" value="finalytics@192.168.1.222 (DDL)" />
+          <option name="dbmsName" value="POSTGRES" />
           <option name="urls">
             <array>
               <option value="file://$PROJECT_DIR$" />

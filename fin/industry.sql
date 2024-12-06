@@ -1,9 +1,9 @@
 create table fin.industry
 (
-    "IndustryID"              integer,
-    "IndustryName"            varchar(50),
-    "IndustrySymbolURLFilter" varchar(50),
-    "IndustryDescription"     varchar(100)
+    industry_id                integer,
+    industry_name              varchar(50),
+    industry_symbol_url_filter varchar(50),
+    industry_description       varchar(100)
 );
 
 alter table fin.industry

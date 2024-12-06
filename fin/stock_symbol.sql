@@ -1,0 +1,46 @@
+create table fin.stock_symbol
+(
+    stock_symbol_id               integer,
+    security_type_id              integer,
+    exchange_market_id            integer,
+    industry_id                   integer,
+    region_id                     integer,
+    market_cap_id                 integer,
+    symbol                        varchar(50),
+    data_symbol                   varchar(50),
+    name                          varchar(300),
+    last_sale                     money,
+    market_cap                    varchar(50),
+    country                       varchar(50),
+    adr_tso                       integer,
+    ipo_year                      integer,
+    is_in_profile_nasdaq          boolean,
+    sector_nasdaq                 varchar(50),
+    industry_nasdaq               varchar(100),
+    summary_quote                 varchar(100),
+    create_time                   timestamp(3),
+    update_time                   timestamp(3),
+    eom_quote_url                 char(300),
+    eom_quote_download_status     integer,
+    eom_quote_download_time       timestamp(3),
+    eom_quote_import_status       integer,
+    eom_quote_import_time         timestamp(3),
+    eod_quote_url                 char(300),
+    eod_quote_download_status     integer,
+    eod_quote_download_time       timestamp(3),
+    eod_quote_import_status       integer,
+    eod_quote_import_time         timestamp(3),
+    instant_quote_download_status integer,
+    instant_quote_download_time   timestamp(3),
+    instant_quote_import_status   integer,
+    instant_quote_import_time     timestamp(3),
+    profile_download_status       integer,
+    profile_download_time         timestamp(3),
+    profile_import_status         integer,
+    profile_import_time           timestamp(3),
+    message                       varchar(3999)
+);
+
+alter table fin.stock_symbol
+    owner to postgres;
+
