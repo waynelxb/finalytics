@@ -25,17 +25,29 @@
         </node>
       </scope>
     </mapping>
+    <mapping uuid="342c75c1-0475-47bc-ad23-e74e6c4d11c3" name="finalytics@192.168.1.222 (DDL) Mapping [2]">
+      <data-sources db="ee2075f9-6473-4ffa-bf95-9db868ace62d" ddl="c13ba650-7ca1-4829-ab6f-766f057fc194" />
+      <scope>
+        <node kind="database" qname="finalytics">
+          <node kind="schema">
+            <name qname="abc" />
+            <name qname="fin" />
+            <name qname="stage" />
+          </node>
+        </node>
+      </scope>
+    </mapping>
   </component>
   <component name="SqlDataSourceStorage">
     <option name="dataSources">
       <list>
         <State>
-          <option name="id" value="08ce2314-31d1-4fa8-8da4-991ef63b8027" />
+          <option name="id" value="c13ba650-7ca1-4829-ab6f-766f057fc194" />
           <option name="name" value="finalytics@192.168.1.222 (DDL)" />
           <option name="dbmsName" value="POSTGRES" />
           <option name="urls">
             <array>
-              <option value="file://$PROJECT_DIR$" />
+              <option value="file://$PROJECT_DIR$/finalytics_db" />
             </array>
           </option>
           <option name="outLayout" value="File per object by schema.groovy" />
