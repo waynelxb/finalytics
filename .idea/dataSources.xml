@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:postgresql://192.168.1.222:5432/finalytics</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="Finance@WIN2019" uuid="aa4b3581-bd65-4630-978d-55156bf51ba7">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://WIN2019\SQL2019;database=Finance</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
