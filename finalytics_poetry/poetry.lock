@@ -230,6 +230,17 @@ files = [
 all = ["flake8 (>=7.1.1)", "mypy (>=1.11.2)", "pytest (>=8.3.2)", "ruff (>=0.6.2)"]
 
 [[package]]
+name = "joblib"
+version = "1.4.2"
+description = "Lightweight pipelining with Python functions"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "joblib-1.4.2-py3-none-any.whl", hash = "sha256:06d478d5674cbc267e7496a410ee875abd68e4340feff4490bcb7afb88060ae6"},
+    {file = "joblib-1.4.2.tar.gz", hash = "sha256:2382c5816b2636fbd20a09e0f4e9dad4736765fdfb7dca582943b9c1366b3f0e"},
+]
+
+[[package]]
 name = "lxml"
 version = "5.3.0"
 description = "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API."
@@ -555,6 +566,21 @@ files = [
 ]
 
 [[package]]
+name = "pgcopy"
+version = "1.6.0"
+description = "Fast db insert with postgresql binary copy"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pgcopy-1.6.0-py2.py3-none-any.whl", hash = "sha256:3fb7fee568f8c98dc4b7803e65dc52dd1d8feccce036e4bef69ab83e6a87ffbc"},
+    {file = "pgcopy-1.6.0.tar.gz", hash = "sha256:0da9235eea4ee9ceb4f52b97523bc89db9a6f8e80f897b49214e814ea13d04b0"},
+]
+
+[package.dependencies]
+psycopg2 = "*"
+pytz = "*"
+
+[[package]]
 name = "platformdirs"
 version = "4.3.6"
 description = "A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`."
@@ -760,4 +786,4 @@ repair = ["scipy (>=1.6.3)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "d7dd31605907b15dcb4c6e00f4a556019a56c73be1410ad432c6b8707eb9a9fb"
+content-hash = "3951ec1593be23b7e3f9b78c94d7b05bab8d7d4c7fa3a560da22875994385e6f"
